@@ -213,6 +213,13 @@ LV_FONT_DECLARE(lv_font_dejavu_40_cyrillic);
 LV_FONT_DECLARE(lv_font_symbol_40);
 #endif
 
+#if USE_DEJAVUSANS_20
+LV_FONT_DECLARE(DejaVuSans_20);
+#endif
+#if USE_DEJAVUSANS_10
+LV_FONT_DECLARE(DejaVuSans_10);
+#endif
+
 #ifdef __cplusplus
 } /* extern "C" */
 #endif

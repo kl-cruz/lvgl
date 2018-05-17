@@ -361,9 +361,9 @@ static void indev_keypad_proc(lv_indev_t * i, lv_indev_data_t * data)
         else if(data->key == LV_GROUP_KEY_PREV) {
             lv_group_focus_prev(i->group);
         }
-        else {
+        //else {
             lv_group_send_data(i->group, data->key);
-        }
+        //}
 
         i->proc.pr_timestamp = 0;
         i->proc.long_pr_sent = 0;

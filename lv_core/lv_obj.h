@@ -72,6 +72,8 @@ typedef enum
 {
     LV_RES_INV = 0,      /*Typically indicates that the object is deleted (become invalid) in the action function*/
     LV_RES_OK,           /*The object is valid (no deleted) after the action*/
+    LV_RES_ENT,      /*Object is in edit state*/
+    LV_RES_REL,      /*Object is released*/
 }lv_res_t;
 
 typedef enum
